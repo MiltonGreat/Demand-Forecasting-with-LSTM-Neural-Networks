@@ -1,4 +1,4 @@
-# Demand-Forecasting-with-LSTM-Neural-Networks
+# Demand Forecasting with LSTM Neural Networks
 
 ### Overview
 
