@@ -52,6 +52,14 @@ This dataset provides synthetic yet realistic data for analyzing and forecasting
 
 Achieved an RMSE of 108.26 and an MAE of 89.35, indicating a reasonable prediction accuracy.
 
+### Key Findings:
+
+- Both RMSE and MAE indicate that the model has a reasonable performance but isn’t highly accurate yet. These values suggest that the model’s predictions are off by a significant amount, which may be expected for a complex problem like predicting sales over time with various influencing factors.
+
+- To assess model performance more thoroughly, you could compare these values with other models (e.g., traditional statistical models or simpler machine learning algorithms) to determine if the LSTM provides a meaningful improvement.
+
+- Depending on the business context, these errors may be acceptable, but if high accuracy is needed for inventory planning, for example, further model tuning, feature engineering, or additional data might be necessary to improve these metrics.
+
 ### Future Work:
 
 - Fine-tune the LSTM architecture (number of layers, units).
